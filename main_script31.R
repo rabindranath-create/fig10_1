@@ -6,7 +6,7 @@
 cat("Working directory:", getwd(), "\n")
 
 # Set up and confirm output folder
-output_dir <- file.path(getwd(), "outputs/script13")
+output_dir <- file.path(getwd(), "outputs/script31")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 cat("Created directory:", output_dir, "\n")
 
