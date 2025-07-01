@@ -41,7 +41,7 @@ results_3 <- data.frame(
 
 
 for (i in 1:100) {
-  set.seed(200+i)
+  set.seed(i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 150, no_c = 75, no_o = 75)
   result <- ACS_Alg_M(obs_gen_para, kei = 1, lambda, cost)
   
@@ -73,7 +73,7 @@ results_4 <- data.frame(
 
 
 for (i in 1:100) {
-  set.seed(300+i)
+  set.seed(i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 200, no_c = 100, no_o = 100)
   result <- ACS_Alg_M(obs_gen_para, kei = 1, lambda, cost)
   
