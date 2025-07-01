@@ -70,7 +70,7 @@ results_2 <- data.frame(
 
 
 for (i in 1:100) {
-  set.seed(100+i)
+  set.seed(i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 100, no_c = 50, no_o = 50)
   result <- ACS_Alg_M(obs_gen_para, kei = 1, lambda, cost)
   
